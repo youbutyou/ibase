@@ -1,0 +1,2 @@
+# ibase
+cordova
