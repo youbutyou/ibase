@@ -4,12 +4,12 @@ import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
 import org.json.JSONException;
 
-import cn.ibase.hello.util.ConstUtil;
+import cn.ibase.hello.util.ConstantUtil;
 
 public class VersionPlugin extends CordovaPlugin {
 
     protected String getVersion(){
-        return ConstUtil.APP_VERSION;
+        return ConstantUtil.APP_VERSION;
     }
 
     @Override

@@ -1,5 +1,6 @@
 package cn.ibase.hello.activity;
 
+import android.Manifest;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -7,11 +8,14 @@ import android.widget.Toast;
 
 import cn.ibase.hello.R;
 import cn.ibase.hello.util.AppUtil;
+import cn.ibase.hello.util.ConstantUtil;
+import cn.ibase.hello.util.NetworkUtil;
 
-public class LoginActivity extends BaseActivity {
+public class LoginActivity extends BaseActivity  implements View.OnClickListener{
 
     protected Button buttonOne;
     protected Button buttonTwo;
+    protected Button buttonThree;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -20,19 +24,35 @@ public class LoginActivity extends BaseActivity {
 
         buttonOne = findViewById(R.id.button_one);
         buttonTwo = findViewById(R.id.button_two);
+        buttonThree = findViewById(R.id.button_three);
 
-        buttonOne.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        buttonOne.setOnClickListener(this);
+        buttonTwo.setOnClickListener(this);
+        buttonThree.setOnClickListener(this);
+    }
+
+    @Override
+    protected void init(){
+        // 判断权限
+        if (!hasPermission(Manifest.permission.READ_PHONE_STATE)) {
+            requestPermission(ConstantUtil.PERMISSIONS_REQUEST_READ_PHONE_STATE, Manifest.permission.READ_PHONE_STATE);
+        }
+    }
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.button_one:
                 ClickButtonOne();
-            }
-        });
-        buttonTwo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+                break;
+            case R.id.button_two:
                 ClickButtonTwo();
-            }
-        });
+                break;
+            case R.id.button_three:
+                ClickButtonThree();
+                break;
+            default:
+                break;
+        }
+
     }
 
     /**
@@ -44,7 +64,12 @@ public class LoginActivity extends BaseActivity {
 
     }
     protected void ClickButtonTwo(){
-        Toast.makeText(this, "点击测试two", Toast.LENGTH_SHORT).show();
+        int isNet = NetworkUtil.getNetworkType(this.getApplicationContext());
+        Toast.makeText(this, "netType=" + isNet, Toast.LENGTH_SHORT).show();
+    }
+    protected void ClickButtonThree(){
+        int isNet = NetworkUtil.getNetworkType(this.getApplicationContext());
+        Toast.makeText(this, "netType=" + isNet, Toast.LENGTH_SHORT).show();
     }
 
 }

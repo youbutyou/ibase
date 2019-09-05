@@ -7,4 +7,5 @@
 
     <string name="button_one">测试one</string>
     <string name="button_two">测试two</string>
+    <string name="button_three">测试three</string>
 </resources>
