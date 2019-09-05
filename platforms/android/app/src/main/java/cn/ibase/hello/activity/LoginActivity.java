@@ -1,7 +1,6 @@
 package cn.ibase.hello.activity;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -9,18 +8,19 @@ import android.widget.Toast;
 import cn.ibase.hello.R;
 import cn.ibase.hello.util.AppUtil;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends BaseActivity {
 
     protected Button buttonOne;
     protected Button buttonTwo;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.layout_login);
 
-        buttonOne = (Button) findViewById(R.id.button_one);
-        buttonTwo = (Button) findViewById(R.id.button_two);
+        buttonOne = findViewById(R.id.button_one);
+        buttonTwo = findViewById(R.id.button_two);
+
         buttonOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

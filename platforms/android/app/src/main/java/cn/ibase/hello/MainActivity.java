@@ -22,7 +22,9 @@ package cn.ibase.hello;
 import android.os.Bundle;
 import org.apache.cordova.*;
 
-public class MainActivity extends CordovaActivity
+import cn.ibase.hello.activity.BaseActivity;
+
+public class MainActivity extends BaseActivity
 {
     @Override
     public void onCreate(Bundle savedInstanceState)

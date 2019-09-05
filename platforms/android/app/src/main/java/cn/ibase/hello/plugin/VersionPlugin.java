@@ -1,16 +1,11 @@
 package cn.ibase.hello.plugin;
 
-
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
 import org.json.JSONException;
 
 import cn.ibase.hello.util.ConstUtil;
 
-/**
- * 自定义cordovaPlugin
- * 获取版本号
- */
 public class VersionPlugin extends CordovaPlugin {
 
     protected String getVersion(){
