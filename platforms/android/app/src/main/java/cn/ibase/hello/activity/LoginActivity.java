@@ -1,15 +1,19 @@
 package cn.ibase.hello.activity;
 
 import android.Manifest;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.arcface.activity.ChooseFunctionActivity;
+
 import cn.ibase.hello.R;
 import cn.ibase.hello.util.AppUtil;
 import cn.ibase.hello.util.ConstantUtil;
 import cn.ibase.hello.util.NetworkUtil;
+import cn.ibase.hello.util.PermissionUtil;
 
 public class LoginActivity extends BaseActivity  implements View.OnClickListener{
 
@@ -34,8 +38,8 @@ public class LoginActivity extends BaseActivity  implements View.OnClickListener
     @Override
     protected void init(){
         // 判断权限
-        if (!hasPermission(Manifest.permission.READ_PHONE_STATE)) {
-            requestPermission(ConstantUtil.PERMISSIONS_REQUEST_READ_PHONE_STATE, Manifest.permission.READ_PHONE_STATE);
+        if (!PermissionUtil.hasPermission(this, Manifest.permission.READ_PHONE_STATE)) {
+            PermissionUtil.requestPermission(this, ConstantUtil.PERMISSIONS_REQUEST_READ_PHONE_STATE, Manifest.permission.READ_PHONE_STATE);
         }
     }
     public void onClick(View view) {
@@ -68,8 +72,9 @@ public class LoginActivity extends BaseActivity  implements View.OnClickListener
         Toast.makeText(this, "netType=" + isNet, Toast.LENGTH_SHORT).show();
     }
     protected void ClickButtonThree(){
-        int isNet = NetworkUtil.getNetworkType(this.getApplicationContext());
-        Toast.makeText(this, "netType=" + isNet, Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, ChooseFunctionActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        this.startActivity(intent);
     }
 
 }

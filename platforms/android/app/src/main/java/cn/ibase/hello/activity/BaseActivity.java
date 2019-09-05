@@ -75,24 +75,6 @@ public abstract class BaseActivity extends CordovaActivity implements CommonBroa
 
     /*******************************************************************/
     /*********************** 权限请求 ****************************/
-    /**
-     * 权限检查方法，false代表没有该权限，ture代表有该权限
-     */
-    public boolean hasPermission(String... permissions) {
-        for (String permission : permissions) {
-            if (ContextCompat.checkSelfPermission(this, permission) != PackageManager.PERMISSION_GRANTED) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    /**
-     * 权限请求方法
-     */
-    public void requestPermission(int code, String... permissions) {
-        ActivityCompat.requestPermissions(this, permissions, code);
-    }
 
     /**
      * 处理请求权限结果事件
