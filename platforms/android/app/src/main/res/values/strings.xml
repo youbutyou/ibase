@@ -7,9 +7,9 @@
 
 
     <!--测试-->
-    <string name="button_one">测试one</string>
-    <string name="button_two">测试two</string>
-    <string name="button_three">测试three</string>
+    <string name="button_one">注册</string>
+    <string name="button_two">批量注册</string>
+    <string name="button_three">视频检测</string>
 
 
     <!--人脸识别-->

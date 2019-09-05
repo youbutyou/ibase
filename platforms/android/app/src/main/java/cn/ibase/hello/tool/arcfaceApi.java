@@ -38,6 +38,16 @@ public class arcfaceApi {
     private static int afCode = -1;
 
     /**
+     * 视频模式检测配置
+     * @param activity
+     * @param asp
+     *          FaceEngine.ASF_OP_0_ONLY等
+     */
+    public static void configEngine(Activity activity, int asp){
+        ConfigUtil.setFtOrient(activity, asp);
+    }
+
+    /**
      * 激活引擎
      * @param activity
      */
