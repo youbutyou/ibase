@@ -8,8 +8,13 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.arcface.activity.ChooseFunctionActivity;
+import com.arcface.activity.IrRegisterAndRecognizeActivity;
+import com.arcface.activity.PreviewActivity;
+import com.arcface.activity.RegisterAndRecognizeActivity;
+import com.arcsoft.face.FaceEngine;
 
 import cn.ibase.hello.R;
+import cn.ibase.hello.tool.ArcfaceApi;
 import cn.ibase.hello.util.AppUtil;
 import cn.ibase.hello.util.ConstantUtil;
 import cn.ibase.hello.util.NetworkUtil;
@@ -63,18 +68,14 @@ public class LoginActivity extends BaseActivity  implements View.OnClickListener
      * 测试按钮One
      */
     protected void ClickButtonOne(){
-        String version = AppUtil.getVersion(this.getApplicationContext());
-        Toast.makeText(this, "version=" + version, Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(this, ChooseFunctionActivity.class));
 
     }
     protected void ClickButtonTwo(){
-        int isNet = NetworkUtil.getNetworkType(this.getApplicationContext());
-        Toast.makeText(this, "netType=" + isNet, Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(this, IrRegisterAndRecognizeActivity.class));
     }
     protected void ClickButtonThree(){
-        Intent intent = new Intent(this, ChooseFunctionActivity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        this.startActivity(intent);
+        startActivity(new Intent(this, RegisterAndRecognizeActivity.class));
     }
 
 }

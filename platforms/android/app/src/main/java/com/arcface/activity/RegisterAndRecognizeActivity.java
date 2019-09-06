@@ -253,7 +253,7 @@ public class RegisterAndRecognizeActivity extends CordovaActivity implements Vie
             public void onFaceFeatureInfoGet(@Nullable final FaceFeature faceFeature, final Integer requestId) {
                 //FR成功
                 if (faceFeature != null) {
-//                    Log.i(TAG, "onPreview: fr end = " + System.currentTimeMillis() + " trackId = " + requestId);
+                    Log.i(TAG, "onPreview: fr end = " + System.currentTimeMillis() + " trackId = " + requestId);
 
                     //不做活体检测的情况，直接搜索
                     if (!livenessDetect) {

@@ -1,9 +1,12 @@
 package cn.ibase.hello.tool;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.arcface.activity.IrRegisterAndRecognizeActivity;
+import com.arcface.activity.RegisterAndRecognizeActivity;
 import com.arcface.common.Constants;
 import com.arcface.util.ConfigUtil;
 import com.arcsoft.face.ActiveFileInfo;
@@ -28,14 +31,21 @@ import io.reactivex.schedulers.Schedulers;
  * 8hJB2aN6LCPyhvGFFYE5hY9KQBXP46yFDMtY8fuDFaB4
  * BsGENEbZuKRXnTRxRjxRMZwi2meedxMNFVRnyrwTf5uS
  */
-public class arcfaceApi {
-    private static final String TAG = "arcfaceApi";
+public class ArcfaceApi {
+    private static final String TAG = "ArcfaceApi";
 
     // 引擎对象
     private static FaceEngine faceEngine = new FaceEngine();
-
     // 返回标识
     private static int afCode = -1;
+
+
+    public static FaceEngine getFaceEngine() {
+        if(null == faceEngine){
+            faceEngine = new FaceEngine();
+        }
+        return faceEngine;
+    }
 
     /**
      * 视频模式检测配置
@@ -59,7 +69,7 @@ public class arcfaceApi {
         Observable.create(new ObservableOnSubscribe<Integer>() {
             @Override
             public void subscribe(ObservableEmitter<Integer> emitter) throws Exception {
-                int activeCode = faceEngine.activeOnline(activity, Constants.APP_ID, Constants.SDK_KEY);
+                int activeCode = getFaceEngine().activeOnline(activity, Constants.APP_ID, Constants.SDK_KEY);
                 emitter.onNext(activeCode);
             }
         })
@@ -81,7 +91,7 @@ public class arcfaceApi {
                     ToastUtil.show(activity, activity.getString(R.string.active_failed, activeCode));
                 }
                 ActiveFileInfo activeFileInfo = new ActiveFileInfo();
-                int res = faceEngine.getActiveFileInfo(activity,activeFileInfo);
+                int res = getFaceEngine().getActiveFileInfo(activity,activeFileInfo);
                 if (res == ErrorInfo.MOK) {
                     Log.i(TAG, activeFileInfo.toString());
                 }
@@ -99,31 +109,14 @@ public class arcfaceApi {
         });
     }
 
-    /**
-     * 初始化引擎
-     * @param activity
-     */
-    public static void initEngine(Activity activity) {
-        afCode = faceEngine.init(activity, FaceEngine.ASF_DETECT_MODE_VIDEO, ConfigUtil.getFtOrient(activity),
-                16, ConstantUtil.MAX_DETECT_NUM, FaceEngine.ASF_FACE_RECOGNITION | FaceEngine.ASF_FACE_DETECT | FaceEngine.ASF_LIVENESS);
-        VersionInfo versionInfo = new VersionInfo();
-        faceEngine.getVersion(versionInfo);
-        Log.i(TAG, "initEngine:  init: " + afCode + "  version:" + versionInfo);
 
-        if (afCode != ErrorInfo.MOK) {
-            Toast.makeText(activity, activity.getString(R.string.init_failed, afCode), Toast.LENGTH_SHORT).show();
-        }
+    public static void IrRecognize(Activity activity){
+        activity.startActivity(new Intent(activity, IrRegisterAndRecognizeActivity.class));
     }
 
-    /**
-     * 销毁引擎
-     */
-    public static void unInitEngine() {
-        if(null == faceEngine){
-            return;
-        }
-        afCode = faceEngine.unInit();
-        Log.i(TAG, "unInitEngine: " + afCode);
+    public static void Recognize(Activity activity){
+        activity.startActivity(new Intent(activity, RegisterAndRecognizeActivity.class));
     }
+
 
 }
