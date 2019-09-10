@@ -1,0 +1,264 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:2:1-45:12
+MERGED from [:CordovaLib] E:\sss\myProject\ibase\platforms\android\CordovaLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:1-29:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\2562938f7eb00977a2eb10ac7e1601fb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\8d83c70cfe70eed93e7bd8121ecd1b7d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\ad5d0139884082151ca9b0e635ee10b2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\cd28eb584f22e3bc106d01b3ea96753d\AndroidManifest.xml:2:1-12:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\14069bfb178efe7c332f2a5f55ed2355\AndroidManifest.xml:15:1-20:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\5dd14c6acc113e0267826bab4ce0400d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\225dc3352961ab91a8d777a3ac1e5ab1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\c33bd4354b9dad4f87c6c63ff1d74afd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\629e08310230cd8c26844cb9d9344918\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\4430582a5021763cd11c212b8f103240\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\cedbf35b5554ceb19018f3c50ea2f49f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\02ec615a752df95456b58e6509bdbc22\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\cb4f582fea42876928528425f1af3d30\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\86ea92578fda6a2f280ab5e0c5f17a12\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\99717ef5d9bdee83ef1eb1059246502d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\4fe7db230cbdcf86bcf5941a82f4f51e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\7bda98af91718a155c3ea9c40d6c0487\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\d37cddfb70f58ea311a87d219b39210d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\484d92b416762408c3d227b6498fe3e8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\f3ba4622ec75921ae367aada375b162b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\d13618bf674a9183eef5eba51fc19a0c\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\8835ac0be218eb5889018ffe46016571\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\a20863d12701381bf0e5728f6a03bce8\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\64c11e902e25a32a3ff30c407c8487f9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\2c3daa1c0996d85874a06c441456809a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\8592d96ae6f169bab264e40b4d0cd235\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\3984821a7aa1a23493081579179d0c7b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\1b8567084a15cd01795dc88ab383f3db\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\52068a91b920e7cd3fdcb786072ee3a3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\4b6ad52ec6ce919d4e71ab3f9af6cf3d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\c6e69a5d7f3f032e8baa5bedfe832acc\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\45a22a63354199b3a79f27219b02943f\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:5:5-29
+		INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:4:5-32
+		INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:7:5-51
+	android:hardwareAccelerated
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:6:5-63
+	android:versionCode
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:8:5-191
+	android:largeScreens
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:8:49-76
+	android:smallScreens
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:8:132-159
+	android:normalScreens
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:8:77-105
+	android:xlargeScreens
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:8:160-188
+	android:resizeable
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:8:106-131
+	android:anyDensity
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:8:23-48
+uses-permission#android.permission.INTERNET
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.CAMERA
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:12:22-62
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:15:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:16:22-78
+application
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:17:5-44:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\cd28eb584f22e3bc106d01b3ea96753d\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\cd28eb584f22e3bc106d01b3ea96753d\AndroidManifest.xml:10:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\f3ba4622ec75921ae367aada375b162b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\f3ba4622ec75921ae367aada375b162b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\d13618bf674a9183eef5eba51fc19a0c\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\d13618bf674a9183eef5eba51fc19a0c\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\a20863d12701381bf0e5728f6a03bce8\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\a20863d12701381bf0e5728f6a03bce8\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\f3ba4622ec75921ae367aada375b162b\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:17:114-140
+	android:label
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:17:81-113
+	android:hardwareAccelerated
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:17:18-52
+	android:icon
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:17:53-80
+activity#cn.ibase.hello.activity.LoginActivity
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:18:9-29:20
+	android:label
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:20:13-50
+	android:launchMode
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:21:13-43
+	android:windowSoftInputMode
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:24:13-55
+	android:configChanges
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:19:13-90
+	android:theme
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:23:13-44
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:22:13-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:25:13-28:29
+	android:label
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:25:28-65
+action#android.intent.action.MAIN
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:27:27-74
+receiver#cn.ibase.hello.receiver.CommonBroadcastReceiver
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:30:9-36:20
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:30:19-67
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:31:13-35:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:32:17-34:50
+	tools:ignore
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:34:21-47
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:33:21-72
+activity#com.arcface.activity.ChooseFunctionActivity
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:37:9-89
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:37:19-77
+activity#com.arcface.activity.FaceManageActivity
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:38:9-85
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:38:19-73
+activity#com.arcface.activity.IrRegisterAndRecognizeActivity
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:39:9-97
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:39:19-85
+activity#com.arcface.activity.MultiImageActivity
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:40:9-85
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:40:19-73
+activity#com.arcface.activity.PreviewActivity
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:41:9-82
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:41:19-70
+activity#com.arcface.activity.RegisterAndRecognizeActivity
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:42:9-95
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:42:19-83
+activity#com.arcface.activity.SingleImageActivity
+ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:43:9-86
+	android:name
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml:43:19-74
+uses-sdk
+INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml
+INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml
+MERGED from [:CordovaLib] E:\sss\myProject\ibase\platforms\android\CordovaLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-27:41
+MERGED from [:CordovaLib] E:\sss\myProject\ibase\platforms\android\CordovaLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\2562938f7eb00977a2eb10ac7e1601fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\2562938f7eb00977a2eb10ac7e1601fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\8d83c70cfe70eed93e7bd8121ecd1b7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\8d83c70cfe70eed93e7bd8121ecd1b7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\ad5d0139884082151ca9b0e635ee10b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\ad5d0139884082151ca9b0e635ee10b2\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\cd28eb584f22e3bc106d01b3ea96753d\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\cd28eb584f22e3bc106d01b3ea96753d\AndroidManifest.xml:6:5-8:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\14069bfb178efe7c332f2a5f55ed2355\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\14069bfb178efe7c332f2a5f55ed2355\AndroidManifest.xml:18:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\5dd14c6acc113e0267826bab4ce0400d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\5dd14c6acc113e0267826bab4ce0400d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\225dc3352961ab91a8d777a3ac1e5ab1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\225dc3352961ab91a8d777a3ac1e5ab1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\c33bd4354b9dad4f87c6c63ff1d74afd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\c33bd4354b9dad4f87c6c63ff1d74afd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\629e08310230cd8c26844cb9d9344918\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\629e08310230cd8c26844cb9d9344918\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\4430582a5021763cd11c212b8f103240\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\4430582a5021763cd11c212b8f103240\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\cedbf35b5554ceb19018f3c50ea2f49f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\cedbf35b5554ceb19018f3c50ea2f49f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\02ec615a752df95456b58e6509bdbc22\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\02ec615a752df95456b58e6509bdbc22\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\cb4f582fea42876928528425f1af3d30\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\cb4f582fea42876928528425f1af3d30\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\86ea92578fda6a2f280ab5e0c5f17a12\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\86ea92578fda6a2f280ab5e0c5f17a12\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\99717ef5d9bdee83ef1eb1059246502d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\99717ef5d9bdee83ef1eb1059246502d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\4fe7db230cbdcf86bcf5941a82f4f51e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\4fe7db230cbdcf86bcf5941a82f4f51e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\7bda98af91718a155c3ea9c40d6c0487\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\7bda98af91718a155c3ea9c40d6c0487\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\d37cddfb70f58ea311a87d219b39210d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\d37cddfb70f58ea311a87d219b39210d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\484d92b416762408c3d227b6498fe3e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\484d92b416762408c3d227b6498fe3e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\f3ba4622ec75921ae367aada375b162b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\f3ba4622ec75921ae367aada375b162b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\d13618bf674a9183eef5eba51fc19a0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\d13618bf674a9183eef5eba51fc19a0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\8835ac0be218eb5889018ffe46016571\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\8835ac0be218eb5889018ffe46016571\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\a20863d12701381bf0e5728f6a03bce8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\a20863d12701381bf0e5728f6a03bce8\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\64c11e902e25a32a3ff30c407c8487f9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\64c11e902e25a32a3ff30c407c8487f9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\2c3daa1c0996d85874a06c441456809a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\2c3daa1c0996d85874a06c441456809a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\8592d96ae6f169bab264e40b4d0cd235\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\8592d96ae6f169bab264e40b4d0cd235\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\3984821a7aa1a23493081579179d0c7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\3984821a7aa1a23493081579179d0c7b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\1b8567084a15cd01795dc88ab383f3db\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\1b8567084a15cd01795dc88ab383f3db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\52068a91b920e7cd3fdcb786072ee3a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\52068a91b920e7cd3fdcb786072ee3a3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\4b6ad52ec6ce919d4e71ab3f9af6cf3d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\4b6ad52ec6ce919d4e71ab3f9af6cf3d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\c6e69a5d7f3f032e8baa5bedfe832acc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\c6e69a5d7f3f032e8baa5bedfe832acc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\45a22a63354199b3a79f27219b02943f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\xiaojing.song.GEELY\.gradle\caches\transforms-2\files-2.1\45a22a63354199b3a79f27219b02943f\AndroidManifest.xml:20:5-44
+INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml
+INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\sss\myProject\ibase\platforms\android\app\src\main\AndroidManifest.xml

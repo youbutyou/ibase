@@ -1,0 +1,4 @@
+#Fri Sep 06 10:24:01 CST 2019
+base.0=E\:\\sss\\myProject\\ibase\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
